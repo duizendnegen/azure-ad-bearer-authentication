@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>AzureADBearerAuthentication</AssemblyName>
+    <PackageId>AzureADBearerAuthentication</PackageId>
+    <Title>Azure AD Bearer Authentication</Title>
+    <VersionPrefix>2.0.0</VersionPrefix>
+    <VersionSuffix>beta-001</VersionSuffix>
+    <Authors>Pepijn Schoen, Shayne van Asperen</Authors>
+    <Owners>Pepijn Schoen</Owners>
+    <RequireLicenseAcceptance>false</RequireLicenseAcceptance>
+    <ReleaseNotes>Added optional parameter for customizing JwtBearerOptions.</ReleaseNotes>
+    <Copyright>Copyright 2016</Copyright>
+    <PackageLicenseUrl>https://github.com/duizendnegen/azure-ad-bearer-authentication/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/duizendnegen/azure-ad-bearer-authentication</PackageProjectUrl>
+    <Description>Azure Active Directory Bearer Authentication for .NET Core</Description>
+    <PackageTags>C# aspnetcore authentication security azure</PackageTags>
+    <AssetTargetFallback>$(AssetTargetFallback);dotnet5.6;portable-net45+win8</AssetTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>

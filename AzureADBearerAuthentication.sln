@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AzureADBearerAuthentication", "AzureADBearerAuthentication\AzureADBearerAuthentication.xproj", "{6CBDF6C2-6A27-4C34-8E83-9A8F49E2F259}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureADBearerAuthentication", "AzureADBearerAuthentication\AzureADBearerAuthentication.csproj", "{6CBDF6C2-6A27-4C34-8E83-9A8F49E2F259}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AzureADBearerAuthentication.Tests", "AzureADBearerAuthentication.Tests\AzureADBearerAuthentication.Tests.xproj", "{3537D27F-B43C-4E61-8091-9043772F50FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureADBearerAuthentication.Tests", "AzureADBearerAuthentication.Tests\AzureADBearerAuthentication.Tests.csproj", "{3537D27F-B43C-4E61-8091-9043772F50FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
